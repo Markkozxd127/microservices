@@ -1,7 +1,7 @@
 server:
-    port: ${PORT:8863}
-message: Configuracion de Cajeror en el servidor levantado!
-spring:
+  port: ${PORT:8064}
+message: Configuracion de Customer en el servidor levantado!
+spring: 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: 12345678
@@ -10,7 +10,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-      database-platform: org.hibernate.dialect.MySQLDialect                     
+      database-platform: org.hibernate.dialect.MySQLDialect
   cloud:
     config:
       uri: http://localhost:8080
