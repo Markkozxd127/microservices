@@ -9,6 +9,6 @@ spring:
     username: root
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
       database-platform: org.hibernate.dialect.MySQLDialect                     
   
